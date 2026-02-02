@@ -1,6 +1,7 @@
 local Config = require("config")
 
--- require("utils.backdrops")
+local backdrops = require("utils.backdrops")
+backdrops:set_images()
 
 require("events.left-status").setup()
 require("events.right-status").setup({ date_format = "%a %H:%M:%S" })
