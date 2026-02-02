@@ -43,6 +43,11 @@ return {
 
   window_close_confirmation = "NeverPrompt",
 
+  -- Transparency (see desktop behind terminal)
+  window_background_opacity = 0.85,
+  macos_window_background_blur = 20,
+  native_macos_fullscreen_mode = false,
+
   inactive_pane_hsb = {
     saturation = 1.0,
     brightness = 1.0,
